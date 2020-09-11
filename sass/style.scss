@@ -54,6 +54,8 @@ img {
     margin: 1em auto;
 }
 a {
+    @include mainfont();
+    font-weight: 600;
     padding: 0.5em;
     cursor: pointer;
     border-radius: 2px;
@@ -81,9 +83,7 @@ a:hover {
     align-self: center;
     justify-self: center;
 }
-.background{
-    display: none;
-}
+
 // Media Query for Tablets
 
 // Media Query for PC
@@ -130,6 +130,7 @@ a:hover {
     a{
         font-size: 1.5rem;
         padding: 1em;
+        font-weight: 600;
     }
     .btn-container{
         margin-top: 5em;
@@ -142,15 +143,5 @@ a:hover {
         margin: 6em;
         position: relative;
     }
-    // background svg
-    img.background{
-        display: inline;
-        margin: 0 ;
-    
-        
-        z-index: -2;
-        
-    }
-
-    
+ 
 }

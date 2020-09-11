@@ -58,6 +58,9 @@ img {
 }
 
 a {
+  font-family: "Nunito", sans-serif;
+  color: #111111;
+  font-weight: 600;
   padding: 0.5em;
   cursor: pointer;
   border-radius: 2px;
@@ -92,10 +95,6 @@ a:hover {
   grid-area: pic;
   align-self: center;
   justify-self: center;
-}
-
-.background {
-  display: none;
 }
 
 @media screen and (min-width: 436px) {
@@ -141,6 +140,7 @@ a:hover {
   a {
     font-size: 1.5rem;
     padding: 1em;
+    font-weight: 600;
   }
 
   .btn-container {
@@ -151,11 +151,5 @@ a:hover {
     min-width: 100%;
     margin: 6em;
     position: relative;
-  }
-
-  img.background {
-    display: inline;
-    margin: 0;
-    z-index: -2;
   }
 }
