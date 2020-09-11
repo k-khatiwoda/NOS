@@ -91,6 +91,7 @@ a:hover {
     body{
         height: 100%;
         width: 100%;
+
         background-image: url(/images/Ellipse.svg);
         background-repeat: no-repeat;
         background-position-x: -10em;
@@ -99,6 +100,7 @@ a:hover {
     .main-container {
         margin: 5% 9% 0% 9%;
         display: grid;
+        min-width: 1230px;
         grid-template-columns: 3fr 2fr;
         // grid-template-rows: 93%;
         max-width: 90vw;

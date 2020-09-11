@@ -110,6 +110,7 @@ a:hover {
   .main-container {
     margin: 5% 9% 0% 9%;
     display: grid;
+    min-width: 1230px;
     grid-template-columns: 3fr 2fr;
     max-width: 90vw;
   }
